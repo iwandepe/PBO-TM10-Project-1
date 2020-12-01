@@ -28,7 +28,7 @@ public class MainApp {
 			String inpHeigth = JOptionPane.showInputDialog("Enter Heigth : ");
 			shapes[1] = new Rectangle(Integer.parseInt(inpHeigth), Integer.parseInt(inpWidth));
 			
-			JOptionPane.showMessageDialog(null, "The Area of Circle = " + shapes[1].getArea() + "\nThe Around of Circle = " + shapes[1].getAround(),
+			JOptionPane.showMessageDialog(null, "The Area of Rectangle = " + shapes[1].getArea() + "\nThe Around of Rectangle = " + shapes[1].getAround(),
 					"The Area of Shape", JOptionPane.INFORMATION_MESSAGE);
 		}
 		else if(selectedShape == possibleShape[2]) {
@@ -37,7 +37,7 @@ public class MainApp {
 			String inpC = JOptionPane.showInputDialog("Enter C side : ");
 			shapes[2] = new Triangle(Integer.parseInt(inpA), Integer.parseInt(inpB), Integer.parseInt(inpC));
 			
-			JOptionPane.showMessageDialog(null, "The Area of Circle = " + shapes[2].getArea() + "\nThe Around of Circle = " + shapes[2].getAround(),
+			JOptionPane.showMessageDialog(null, "The Area of Triangle = " + shapes[2].getArea() + "\nThe Around of Triangle = " + shapes[2].getAround(),
 					"The Area of Shape", JOptionPane.INFORMATION_MESSAGE);
 		}
 		
