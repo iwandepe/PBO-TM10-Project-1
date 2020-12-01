@@ -34,10 +34,17 @@ public class Triangle extends Shape {
 	public double getArea() {
 		return 0.5 * a * b;
 	}
+	
+	@Override
+	public double getAround() {
+		return getA() + getB() + getC();
+	}
 
 	@Override
 	public String toString() {
 		return "Triangle [a=" + a + ", b=" + b + ", c=" + c + "]";
 	}
+
+	
 	
 }

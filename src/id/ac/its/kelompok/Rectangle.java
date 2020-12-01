@@ -10,7 +10,7 @@ public class Rectangle extends Shape{
 		{
 			super();
 			
-			System.out.println("[Rectangle]: Default Constructor");
+//			System.out.println("[Rectangle]: Default Constructor");
 			this.height = 0.0;
 			this.width = 0.0;
 		}
@@ -19,7 +19,7 @@ public class Rectangle extends Shape{
 		{
 			super();
 			
-			System.out.println("[Rectangle]: Constructor 2");
+//			System.out.println("[Rectangle]: Constructor 2");
 			this.height = height;
 			this.width = width;
 		}
