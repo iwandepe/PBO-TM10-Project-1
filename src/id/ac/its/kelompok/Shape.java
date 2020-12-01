@@ -6,7 +6,7 @@ public class Shape {
 	
 	public Shape() {
 		super();
-		System.out.println("[Shape]: Default Constructor");
+//		System.out.println("[Shape]: Default Constructor");
 	}
 	
 	public double getArea() {
