@@ -12,5 +12,4 @@ public class MainApp {
 		JOptionPane.showMessageDialog(null, "The Area of Circle = " + acircle.getArea(),
 				"The Area of Circle", JOptionPane.PLAIN_MESSAGE);
 	}
-
 }
