@@ -1,4 +1,5 @@
-# Tugas-Kelompok-PBO
+# Pemrograman Berorientasi Objek E / Kelompok X
+Repository untuk kerja kelompok tugas mata kuliah Pemrograman Beroientasi Objek
 
 ## Anggota
 1. Mohammad Faderik Izzul Haq [05111940000023]
@@ -11,4 +12,4 @@
 - Buka Terminal CMD
 - ketik ``` $ sudo poweroff ```
 
-Repository untuk kerja kelompok tugas mata kuliah Pemrograman Beroientasi Objek
+
