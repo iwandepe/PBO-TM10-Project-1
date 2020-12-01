@@ -6,13 +6,13 @@ public class Circle extends Shape {
 	
 	public Circle() {
 		super();
-		System.out.println("[Circle]: Default Constructor");
+//		System.out.println("[Circle]: Default Constructor");
 		this.radius = 0.0;
 	}
 	
 	public Circle(double radius) {
 		super();
-		System.out.println("[Circle]: Constructor with radius");
+//		System.out.println("[Circle]: Constructor with radius");
 		this.radius = radius;
 	}
 
