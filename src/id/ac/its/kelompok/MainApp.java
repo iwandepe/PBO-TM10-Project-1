@@ -5,8 +5,13 @@ import javax.swing.JOptionPane;
 public class MainApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// obtain user input from JOptionPane input dialogs
+		
+		String firstNumber = JOptionPane.showInputDialog("Enter first integer");
+		
+		JOptionPane.showMessageDialog(null, "The sum is " + firstNumber,
+				"Sum of Two Integers", JOptionPane.PLAIN_MESSAGE);
+		
+			
 		
 	}
 

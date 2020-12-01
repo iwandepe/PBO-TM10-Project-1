@@ -4,6 +4,7 @@ public class Shape {
 
 	protected String color;
 	
+	// default constructor
 	public Shape() {
 		this.color = "Blue";
 		System.out.println("[Shape]: Default Constructor");
@@ -26,5 +27,8 @@ public class Shape {
 		return 0.0;
 	}
 	
+	public void draw() {
+		System.out.println("Drawing shape");
+	}
+	
 }
-
