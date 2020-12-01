@@ -8,8 +8,6 @@ public class MainApp {
 		// TODO Auto-generated method stub
 		// obtain user input from JOptionPane input dialogs
 		
-		
-		
 	}
 
 }
