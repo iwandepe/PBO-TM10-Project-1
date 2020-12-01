@@ -6,13 +6,11 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		
-		String firstNumber = JOptionPane.showInputDialog("Enter first integer");
+		String inpRadius = JOptionPane.showInputDialog("Enter radius : ");
+		Circle acircle = new Circle(Integer.parseInt(inpRadius));
 		
-		JOptionPane.showMessageDialog(null, "The sum is " + firstNumber,
-				"Sum of Two Integers", JOptionPane.PLAIN_MESSAGE);
-		
-			
-		
+		JOptionPane.showMessageDialog(null, "The Area of Circle = " + acircle.getArea(),
+				"The Area of Circle", JOptionPane.PLAIN_MESSAGE);
 	}
 
 }
