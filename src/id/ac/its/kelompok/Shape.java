@@ -1,21 +1,23 @@
 package id.ac.its.kelompok;
 
-public class Shape {
+public abstract class Shape {
 
 	protected String color;
 	
+	// default constructor
 	public Shape() {
 		super();
 //		System.out.println("[Shape]: Default Constructor");
 	}
 	
-	public double getArea() {
-		return 0.0;
-	}
+	public abstract double getArea();
 	
-	public double getAround() {
-		return 0.0;
+	public abstract double getAround();
+	
+	public void draw() {
+		System.out.println("Drawing shape");
 	}
 	
 }
+
 
